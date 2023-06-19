@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PALETAS:
+        https://coolors.co/palette/22577a-38a3a5-57cc99-80ed99-c7f9cc
+        https://coolors.co/palette/fbf8cc-fde4cf-ffcfd2-f1c0e8-cfbaf0-a3c4f3-90dbf4-8eecf5-98f5e1-b9fbc0
+-->
+
+
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_pastel">#57cc99</color>
+    <color name="green_white_pastel">#80ed99</color>
+    <color name="verde_claro_transparente">#8680ED99</color>
+    <color name="verde_fondo">#1A80ED99</color>
+    <color name="verde_button">#8DEDA3</color>
+    <color name="color_icons">#454545</color>
+    <color name="box_stroke_error">#C52525</color>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/imagen"
+            app:srcCompat="@drawable/ic_baseline_image_not_supported_24" />
+
+        <TextView
+            android:id="@+id/t_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_item"
+            android:textSize="21dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/lab_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/min_price"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/green_pastel"
+            android:textStyle="bold"
+            android:text="@string/precio_item" />
+        <TextView
+            android:id="@+id/t_market"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/supermercado"
+            android:textSize="18dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<!--
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+
+        android:contentDescription="@string/imagen"
+        android:padding="0dp"
+        app:srcCompat="@drawable/ic_baseline_image_not_supported_24" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/t_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_item" />
+
+        <TextView
+            android:id="@+id/t_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_item" />
+
+        <TextView
+            android:id="@+id/t_market"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/supermercado" />
+    </LinearLayout>
+</LinearLayout>
+-->
+

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mi Compra</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="nombre_item">Nombre del producto</string>
+    <string name="precio_item">0.00 €</string>
+    <string name="supermercado">Supermercado</string>
+    <string name="imagen">Imagen</string>
+    <string name="min_price">Precio mas bajo:</string>
+    <string name="add">Añadir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="name_market">Nombre del supermercado</string>
+    <string name="name_item">Nombre del producto</string>
+    <string name="add_item">Añadir producto</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cero">0.0€</string>
+    <string name="add_market">Añadir supermercado</string>
+    <string name="add_price">Añadir precio</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- DISEÑOS, COLORES Y ANIMACIONES BASADOS EN
+            https://m2.material.io/design/platform-guidance/android-icons.html
+            https://m2.material.io/resources
+    -->
+    <!-- Base application theme. -->
+    <style name="Theme.MiCompra" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_pastel</item>
+        <item name="colorPrimaryVariant">@color/green_pastel</item>
+        <item name="colorOnPrimary">@color/color_icons</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/color_icons</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MiCompra.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MiCompra.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MiCompra.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
